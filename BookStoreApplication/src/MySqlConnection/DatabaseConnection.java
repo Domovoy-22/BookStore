@@ -10,7 +10,7 @@ public class DatabaseConnection {
     
     public DatabaseConnection() {
         try {
-           Class.forName("com.microsoft.sqlserver.jdbc.SQLServerDriver");
+          Class.forName("com.microsoft.sqlserver.jdbc.SQLServerDriver");
         String url = "jdbc:sqlserver://LINA;databaseName=Book_shop;";
         connection = DriverManager.getConnection(url, "sa", "210733");
         System.out.println("Connected");
