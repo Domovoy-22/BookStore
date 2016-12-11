@@ -94,7 +94,7 @@ public class EmployForm extends javax.swing.JFrame {
         jLabel24 = new javax.swing.JLabel();
         addressField = new javax.swing.JTextField();
         jLabel25 = new javax.swing.JLabel();
-        jCBpost = new javax.swing.JComboBox<String>();
+        jCBpost = new javax.swing.JComboBox<>();
         phoneField = new javax.swing.JFormattedTextField();
         error = new javax.swing.JLabel();
         surnameField = new javax.swing.JTextField();
@@ -263,7 +263,7 @@ public class EmployForm extends javax.swing.JFrame {
                             .addGroup(javax.swing.GroupLayout.Alignment.TRAILING, jPanel5Layout.createSequentialGroup()
                                 .addGap(24, 24, 24)
                                 .addGroup(jPanel5Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING, false)
-                                    .addComponent(surnameField, javax.swing.GroupLayout.Alignment.TRAILING, javax.swing.GroupLayout.PREFERRED_SIZE, 137, javax.swing.GroupLayout.PREFERRED_SIZE)
+                                    .addComponent(surnameField, javax.swing.GroupLayout.DEFAULT_SIZE, 137, Short.MAX_VALUE)
                                     .addComponent(phoneField)
                                     .addComponent(addressField)
                                     .addComponent(jXDatePicker1, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, Short.MAX_VALUE))))

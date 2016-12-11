@@ -242,10 +242,10 @@
                               <Group type="102" alignment="1" attributes="0">
                                   <EmptySpace min="-2" pref="24" max="-2" attributes="0"/>
                                   <Group type="103" groupAlignment="0" max="-2" attributes="0">
-                                      <Component id="surnameField" alignment="1" min="-2" pref="137" max="-2" attributes="0"/>
+                                      <Component id="surnameField" alignment="0" pref="137" max="32767" attributes="0"/>
                                       <Component id="phoneField" alignment="0" max="32767" attributes="0"/>
                                       <Component id="addressField" alignment="0" max="32767" attributes="0"/>
-                                      <Component id="jXDatePicker1" alignment="0" max="32767" attributes="0"/>
+                                      <Component id="jXDatePicker1" max="32767" attributes="0"/>
                                   </Group>
                               </Group>
                           </Group>
