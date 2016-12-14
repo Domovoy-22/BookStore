@@ -281,13 +281,13 @@ public class WageForm extends javax.swing.JFrame {
     }// </editor-fold>//GEN-END:initComponents
 
     private void jMenuItem1ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_jMenuItem1ActionPerformed
-        /*GrafikForm grafik = new GrafikForm();
-        grafik.setVisible(true);*/
+        GrafikForm grafik = new GrafikForm();
+        grafik.setVisible(true);
     }//GEN-LAST:event_jMenuItem1ActionPerformed
 
     private void jMenuItem2ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_jMenuItem2ActionPerformed
-        /*NalogiForm nalogi = new NalogiForm();
-        nalogi.setVisible(true);*/
+        NalogiForm nalogi = new NalogiForm();
+        nalogi.setVisible(true);
     }//GEN-LAST:event_jMenuItem2ActionPerformed
 
     private void jButton1ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_jButton1ActionPerformed
